@@ -8,9 +8,17 @@ CLASS
 - SELF
         É uma referência à própria classe. Com seu uso é possível instanciar o objeto e acessar métodos, variáveis e
         atributos da classe em questão. O nome self não é obrigatório, só é usado por convenção, podendo ser chamado de
-        qualquer nome.
+        qualquer nome, a posição ser o primeiro parâmetro é a única parte absolutamente necessária.
 
 - __init__()
         É um método responsável pela inicialização de uma classe. Dentro dele serão declarados os possíveis métodos da
-        classe em questão. Toda vez que uma classe for usada, a primeira coisa que é feita é a execução do método init.
+        classe em questão. Toda vez que uma classe for usada, a primeira coisa feita é a execução do método init.
         Esse método sempre retorna 'None'.
+
+- O QUE SÃO MÉTODOS
+        Assim como o '__init__', existem outros métodos que podem ser criados e usados dentro de classes, sejam esses
+        os chamados métodos mágicos (com uma função definida previamente, como '__init__', ou por exemplo, '__iter__',
+        sendo um método feito para iterar um objeto), ou simples funções dentro do objeto com algum intuito ao serem
+        executadas. Para criar qualquer método é necessário somente criá-lo como qualquer função, usar 'def' seguido pelo
+        nome da função, recebendo entre parênteses parâmetros. Por padrão, todo método receberá como argumento, a própria
+        classe referênciada em 'self'.
