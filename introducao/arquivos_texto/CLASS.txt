@@ -1,0 +1,16 @@
+CLASS
+
+- O QUE É
+        Classes ão moldes para criar novos objetos. São uma estrutura que gera objetos (instâncias) que podem ter seus
+        próprios atributos e métodos. Os objetos gerados pela classe podem usar seus dados internos para realizar várias
+        ações. Por convenção usamos PascalCase para nomes de classes (primeiras letras das palavras devem ser maiúsculas).
+
+- SELF
+        É uma referência à própria classe. Com seu uso é possível instanciar o objeto e acessar métodos, variáveis e
+        atributos da classe em questão. O nome self não é obrigatório, só é usado por convenção, podendo ser chamado de
+        qualquer nome.
+
+- __init__()
+        É um método responsável pela inicialização de uma classe. Dentro dele serão declarados os possíveis métodos da
+        classe em questão. Toda vez que uma classe for usada, a primeira coisa que é feita é a execução do método init.
+        Esse método sempre retorna 'None'.
