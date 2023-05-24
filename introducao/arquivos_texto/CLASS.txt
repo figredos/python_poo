@@ -22,3 +22,11 @@ CLASS
         executadas. Para criar qualquer método é necessário somente criá-lo como qualquer função, usar 'def' seguido pelo
         nome da função, recebendo entre parênteses parâmetros. Por padrão, todo método receberá como argumento, a própria
         classe referênciada em 'self'.
+
+- ESCOPO DE CLASSE
+        Classes, como qualquer estrutura em python possue escopo próprio, tanto para a classe em si como para os métodos
+        nela contidos.
+
+- MANTENDO ESTADOS EM CLASSES
+        Uma grande utilidade de classes em python, é que seus estados são mantidos, ou seja, caso algum de seus
+        atributos sejam alterados, eles se mantém assim até que sejam novamente alterados.
