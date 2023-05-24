@@ -9,16 +9,16 @@ class Carro:
         return f'{self.nome} está acelerando...'
 
 
-# Criando um objeto 'Carro' chamado fusca
+# Instanciando 'Carro' em um objeto chamado fusca
 fusca = Carro('Fusca')
 
-print(fusca.nome)  # Imprimindo a instância nome do objeto carro
+print(fusca.nome)  # Imprimindo o atributo nome do objeto carro
 
 print(fusca.acelerar())  # Executando o método acelerar
 
-# Criando um objeto 'Carro' chamado celta
+# Instanciando 'Carro' em um objeto chamado celta
 celta = Carro('Celta')
 
-print(celta.nome)  # Imprimindo a instância nome do objeto carro
+print(celta.nome)  # Imprimindo o atributo nome do objeto carro
 
 print(celta.acelerar())  # Executando o método acelerar
