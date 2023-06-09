@@ -1,7 +1,7 @@
 CLASS
 
 - O QUE É
-        Classes ão moldes para criar novos objetos. São uma estrutura que gera objetos (instâncias) que podem ter seus
+        Classes ão moldes para criar objetos. São uma estrutura que gera objetos (instâncias) que podem ter seus
         próprios atributos e métodos. Os objetos gerados pela classe podem usar seus dados internos para realizar várias
         ações. Por convenção usamos PascalCase para nomes de classes (primeiras letras das palavras devem ser maiúsculas).
 
@@ -21,7 +21,7 @@ CLASS
         sendo um método feito para iterar um objeto), ou simples funções dentro do objeto com algum intuito ao serem
         executadas. Para criar qualquer método é necessário somente criá-lo como qualquer função, usar 'def' seguido pelo
         nome da função, recebendo entre parênteses parâmetros. Por padrão, todo método receberá como argumento, a própria
-        classe referênciada em 'self'.
+        classe referenciada em 'self'.
 
 - ESCOPO DE CLASSE
         Classes, como qualquer estrutura em python possue escopo próprio, tanto para a classe em si como para os métodos
@@ -30,3 +30,22 @@ CLASS
 - MANTENDO ESTADOS EM CLASSES
         Uma grande utilidade de classes em python, é que seus estados são mantidos, ou seja, caso algum de seus
         atributos sejam alterados, eles se mantém assim até que sejam novamente alterados.
+
+- ATRIBUTOS DE CLASSE
+        São uma forma de atributos que podem ser utilizados, sendo colocados diretamente dentro da
+        classe, fora do init. Assim fazendo que não sejam um atributo da instância, mas sim atributos da classe em si.
+        Isso se estende à alteração desse atributo, uma vez que um atributo de classe for mudado, ele muda para todas as
+        instâncias dessa classe, podendo gerar alterações indesejadas.
+
+- ATRIBUTOS DE INSTÂNCIA
+        São os atributos presentes na classe, dentro do método init. São os dados inseridos sobre
+        a própria instância, todos os que possuem self.
+
+- __dict__ E vars()
+        Quando uma classe é instanciada, e aos seus atributos são agregados valores, usando o método __dict__, é possível
+        visualizar todos os atributos e valores em formato de dicionário com os atributos assumindo valor de chave e os
+        valores dos atributos assumindo valores correspondentes a essas chaves. A função vars() faz exatamente a chamada
+        do método __dict__ dentro da classe.
+
+        Ao as funções __dict__ e vars(), é possível, por exemplo transferir dados para arquivos json e vice-versa. Pode
+        ser feito usando um Context Manager e o pacote json e suas ferramentas.
