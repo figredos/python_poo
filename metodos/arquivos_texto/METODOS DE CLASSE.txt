@@ -1,0 +1,15 @@
+MÉTODOS DE CLASSE
+
+
+- O QUE SÃO
+        Métodos de classe são métodos onde "self" será "cls", ou seja, ao invés de receber a instância no primeiro
+        parâmetro, receberemos na própria classe. Está atrelado diretamente à classe, e não a instância da mesma. São
+        criados usando o decorador '@classmethod', e substituindo, como mostrado acima o termo 'self', por 'cls' que se
+        refere a classe (class). Evidentemente, na classe onde está inserido o método de classe, não é possível acessar
+        usando o termo 'self. ...' atributos da classe, contudo, é possível acessa-los caso seja passada uma classe como
+        argumento do método.
+
+- FACTORIES
+        É um recurso que pode ser aplicado em diversos objetos do python, sejam funções, ou no caso classes. Funcionam
+        como efetivas fábricas de classes. Usando um decorador '@classmethod', é possível retornar como argumento a própria
+        classe, para tarefas repetitivas, como por exemplo, criar várias instâncias de uma classe que tem idades iguais.
