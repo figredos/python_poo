@@ -1,1 +1,17 @@
-{"nome": "Giulia", "sobrenome": "Fellet", "idade": 25}
+[
+  {
+    "nome": "Giulia",
+    "sobrenome": "Fellet",
+    "idade": 25
+  },
+  {
+    "nome": "Matheus",
+    "sobrenome": "Fusaro",
+    "idade": 25
+  },
+  {
+    "nome": "Giulio",
+    "sobrenome": "Filet",
+    "idade": 25
+  }
+]

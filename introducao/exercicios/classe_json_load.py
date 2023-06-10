@@ -10,7 +10,10 @@ with open('classe.json', 'r') as arquivo:
     dados = json.load(arquivo)
 
 # Desempacotando o dicionário dados na variável pessoa_1, instanciando a classe Pessoa
-pessoa_1 = Pessoa(**dados)
+pessoa_1 = Pessoa(**dados[0])
+pessoa_2 = Pessoa(**dados[1])
+pessoa_3 = Pessoa(**dados[2])
+
 
 # Usando a função vars para checar se os dados foram importados corretamente.
-print(vars(pessoa_1))
+print(vars(pessoa_1), '\n', vars(pessoa_2), '\n', vars(pessoa_3))
