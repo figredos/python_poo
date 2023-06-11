@@ -1,0 +1,18 @@
+@property GETTER
+
+
+- O QUE É
+        @property em python é uma função responsável pelo gerenciamento de uma classe. É com o uso da função 'property()'
+        ou com o uso do decorador '@property' que são feitos processos com os atributos da classe, seja o set (definir
+        o valor de um atributo da classe), um get (fazer a chamada de um atributo da classe), ou um del (deletar o valor
+        de um certo atributo da classe). Usar o decorador '@property' é uma forma pythonica de usar esse recurso. É um
+        método com comportamento de atributo. É utilizado como getter, para habilitar setter, para executar ações ao
+        obter um atributo e para evitar quebrar o código cliente (código que usa o seu código).
+
+- @property COMO GETTER
+        O intuito de usar um getter é proteger o código. É muitas vezes possível chamar o atributo diretamente, contudo,
+        isso pode complicar em muito caso exista a necessidade de mudar algo no código, por exemplo, o nome do atributo,
+        para isso é conveniente usar getters. Usando um método getter, é possível exercer essa mudança sem a quebra do
+        código cliente. Ao usar '@property' acima de uma função, é possível usar um método como atributo, sem precisar
+        fazer a chamada de atributo, e assim acaba por fazer a mesma função do uso simples do atributo, sem risco de
+        quebra do código cliente.
