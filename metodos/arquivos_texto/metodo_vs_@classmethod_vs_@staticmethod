@@ -1,0 +1,15 @@
+método vs @classmethod vs @staticmethod
+
+
+- método vs @classmethod vs @staticmethod
+        Métodos são os métodos de instância, as funções comuns dentro das classes python que recebem como primeiro e
+        principal argumento 'self'.
+
+        Métodos de classe são métodos criados com o decorador '@classmethod' que possibilitam a chamada de métodos
+        diretamente usando a chamada de classe, não necessitando de uma instância para usar o método. Recebem como
+        argumento o objeto cls, a classe em si.
+
+        Métodos estáticos são métodos criados com o decorador '@staticmethod' que possibilitam a criação de métodos
+        alheios à classe dentro da mesma, ou seja, não recebem nem o argumento 'self', nem o argumento 'cls', fazendo
+        assim com que percam o acesso à classe ou à instância. Funcionam exatamente igual a funções normais, tendo como
+        principal diferença o fato de que são colocadas dentro da classe.
