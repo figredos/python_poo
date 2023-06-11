@@ -1,4 +1,4 @@
-MÉTODOS DE CLASSE
+MÉTODOS DE CLASSE - @classmethod
 
 
 - O QUE SÃO
