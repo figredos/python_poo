@@ -7,7 +7,7 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
-    @classmethod  # Decorados classmethod faz com que um método seja chamado diretamente da classe.
+    @classmethod  # Decorador '@classmethod' faz com que um método seja chamado diretamente da classe.
     def metodo_de_classe(cls):
         print('Hey')
 
