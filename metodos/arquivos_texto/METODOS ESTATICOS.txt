@@ -1,0 +1,9 @@
+MÉTODOS ESTÁTICOS - @staticmethod
+
+
+- O QUE SÃO
+        Métodos estáticos são um tipo de método dentro de classes. São caracterizados por não terem acesso a nenhum
+        atributo da instância nem atributo da classe, mas serem colocados dentro da mesma. Para criar um método estático
+        é necessário o uso do decorador '@staticmethod' acima da classe em questão, após isso é só criar a função
+        desejada conforme seria feito fora da classe. Em resumo, métodos estáticos são funções que existem dentro da
+        classe que não possuem acesso nem ao self nem ao cls. Em geral, métodos estáticos tem pouca utilidade em python.
