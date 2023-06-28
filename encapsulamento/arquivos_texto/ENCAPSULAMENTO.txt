@@ -1,0 +1,17 @@
+ENCAPSULAMENTO
+
+
+- O QUE É
+        Encapsulamento é a proteção dos atributos ou métodos de uma classe, em python existem 3 tipos de encapsulamento,
+        e esses são definidos diretamente no nome do atributo ou método. Os 3 métodos python são; público, que não possui
+        nenhum tipo de proteção, podendo ser acessado de qualquer lugar do código; protegido, indicado pelo uso de um
+        underline antes do nome, implicando que aquele atributo, ou método, não deve ser usado fora da classe ou suas
+        subclasses; e finalmente private, indicado pelo uso de 2 underlines antes do nome, implicando seu uso exclusivo
+        na classe na qual está inserido o atributo ou o método.
+
+        Python, diferentemente de outras linguagens de programação não possui modificadores de acesso, assim, a única
+        forma de limitar o acesso de atributos ou métodos de uma classe, é utilizando underlines como mostrado acima.
+        Isso nada mais é que uma convenção definida na pep-8 para gerenciar acesso a atributos e métodos de uma certa
+        classe. Apesar de indevido, é possível usar métodos e atributos protegidos fora da classe com certa normalidade,
+        contudo, quando se tenta utilizar um argumento ou método privado, o python gera um erro, impossibilitando seu
+        uso 'normal'.
