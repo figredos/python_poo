@@ -1,0 +1,13 @@
+@property SETTER
+
+
+- O QUE É E COMO USAR
+        Setters, são uma forma de atribuir, restringir ou atualizar o valor de atributo, evitando a quebra do código
+        cliente. Ao invés de atribuir ou atualizar um valor diretamente ao atributo da classe, é usada uma classe como
+        "middle man" com o intuito de evitar quebra do código cliente, uma vez que, caso o nome de um atributo for mudado,
+        as instâncias da classe que acessarem o setter, não serão afetadas pelas mudanças. Para usar um setter, é
+        necessário primeiramente, a implementação de um método getter usando o syntax sugar '@property'. Em seguida,
+        usar o syntax sugar @'nome do método getter'.setter. Uma vez que isso foi feito, é necessário apenas criar um
+        método setter de mesmo nome do método getter (caso o método getter se chame cor, chamar o método setter de cor
+        também). É possível usar um setter diretamente no '__init__', fazendo com que não seja necessário definir o
+        atributo depois, usando '='.
