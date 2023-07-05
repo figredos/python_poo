@@ -5,6 +5,11 @@ CLASS
         próprios atributos e métodos. Os objetos gerados pela classe podem usar seus dados internos para realizar várias
         ações. Por convenção usamos PascalCase para nomes de classes (primeiras letras das palavras devem ser maiúsculas).
 
+- NOTAÇÃO
+        Quando se refere ao nome de uma certa classe, é usada a notação CamelCase, fazendo referência às corcundas do
+        animal. As letras iniciais das palavras que compõe o nome da classe em python devem ser em letra maiúscula, de
+        acordo com a notação CamelCase.
+
 - SELF
         É uma referência à própria classe. Com seu uso é possível instanciar o objeto e acessar métodos, variáveis e
         atributos da classe em questão. O nome self não é obrigatório, só é usado por convenção, podendo ser chamado de
