@@ -31,4 +31,6 @@ HERANÇA MÚLTIPLA
                                                   \ /
                                                    D
 - C3 SUPERCLASS LINEARIZATION
+        É a forma com a qual o python gerencia o problema do diamante. Se trata de uma ordem de "preferência" entre qual
+        a ordem das classes deve ser executada. O link abaixo demonstra e elabora mais no assunto em questão.
         https://en.wikipedia.org/wiki/C3_linearization
