@@ -1,0 +1,4 @@
+Error: qualquer coisa LogFileMixin
+Success: Deu bom familia LogFileMixin
+Error: qualquer coisa LogFileMixin
+Success: Deu bom familia LogFileMixin
