@@ -5,19 +5,19 @@ from pathlib import Path
 LOG_FILE = Path(__file__).parent / 'log.txt'
 
 
-# Criando a classe Log que deve ser abstraída
+# Criando a classe abstrata 'Log'
 class Log:
-    # Criando método que "exige" que classes que herdam de 'Log' possuam o método '_log'
+    # Método abstrato, não tem funcionalidade quando instanciado, mas força classes que herdam a implementa-lo
     def _log(self, msg):
         raise NotImplementedError('Implemente o método log')
 
-    # Definindo o método 'log_error' que imprime uma mensagem de erro
+    # Método concreto, possui funcionalidade direta
     def log_error(self, msg):
-        self._log(f'Error: {msg}')
+        return self._log(f'Error: {msg}')
 
-    # Definindo o método 'log_success' que imprime uma mensagem de sucesso
+    # Método concreto, possui funcionalidade direta
     def log_success(self, msg):
-        self._log(f'Success: {msg}')
+        return self._log(f'Success: {msg}')
 
 
 # Criando a classe Mixin 'LogFileMixin' que herda de 'Log' e registra os logs em um .txt
