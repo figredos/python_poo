@@ -1,0 +1,26 @@
+MÉTODOS MÁGICOS
+
+
+- O QUE SÃO
+        Métodos mágicos são uma grande parte da programação orientada a objetos em python. São métodos especiais que um
+        dev define para adicionar 'mágica' a uma classe. Todos os métodos mágicos são cercados por 'double underscore',
+        ou dunder. Em resumo, são métodos predefinidos em todos os objetos, que possuem invocação automática sob circun-
+        stâncias especiais. Normalmente não são chamados pelo user, mas podem ser overloaded (sobrescritos e alterados).
+        Para criar um pouco de perspectiva, quando é feita a soma de dois números em python usando o operador '+', o que
+        realmente está sendo feito, é o uso do método mágico '__add__', que faz a adição de dois números. Ou quando usa-
+        mos a função 'len()', o que está realmente sendo feito é a execução do método '__len__'. Uma das principais van-
+        tagens de usar métodos mágicos, é a possibilidade de elaborar classes com comportamentos similares ou iguais ao
+        de tipos internos.
+
+    Obs.: Para maior entendimento dos métodos mágicos ver links abaixo:
+          https://rszalski.github.io/magicmethods/
+          https://docs.python.org/3/reference/datamodel.html#specialnames
+
+- __repr__
+        É o método mágico que faz a representação do objeto da classe de forma mais técnica para outros devs saberem a
+        forma correta de usar uma classe e seus atributos.
+
+- __str__
+        É o método mágico que faz a representação do objeto da classe de uma forma mais amistosa para leitores menos té-
+        cnicos, facilitando o entendimento. A grande diferença entre o método repr e o str, e o público alvo, sendo o
+        método repr destinado mais a outros desenvolvedores.
