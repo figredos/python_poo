@@ -16,7 +16,7 @@ CLASS
         qualquer nome, a posição ser o primeiro parâmetro é a única parte absolutamente necessária.
 
 - __init__()
-        É um método responsável pela inicialização de uma classe. Dentro dele serão declarados os possíveis métodos da
+        É um método responsável pela inicialização de uma classe. Dentro dele serão declarados os possíveis atributos da
         classe em questão. Toda vez que uma classe for usada, a primeira coisa feita é a execução do método init.
         Esse método sempre retorna 'None'.
 
