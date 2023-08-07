@@ -31,6 +31,15 @@ MÉTODOS MÁGICOS
         - __str__(self): str
         - __repr__(self): str
 
+- __new__
+        É um método de inicialização responsável por criar e retornar um novo objeto. É um método estático que não pre-
+        cisa ser declarado como tal. '__new__' é um método responsável por criar e retornar o novo objeto, recebem cls.
+
+- __init__
+        É um método responsável pela inicialização de uma classe. Dentro dele serão declarados os possíveis atributos da
+        classe em questão. Toda vez que uma classe for usada, a primeira coisa feita é a execução do método init.
+        Esse método sempre retorna 'None'.
+
 - __repr__
         É o método mágico que faz a representação do objeto da classe de forma mais técnica para outros devs saberem a
         forma correta de usar uma classe e seus atributos.
