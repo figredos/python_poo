@@ -48,3 +48,8 @@ MÉTODOS MÁGICOS
         É o método mágico que faz a representação do objeto da classe de uma forma mais amistosa para leitores menos té-
         cnicos, facilitando o entendimento. A grande diferença entre o método repr e o str, e o público alvo, sendo o
         método repr destinado mais a outros desenvolvedores.
+
+- __call__
+        É o método mágico que possibilita atribuir alguma ação na ocasião de uma instância de uma determinada classe for
+        chamada como função. Para usar o método call, apenas crie dentro da classe um método de mesmo nome, e atribua a
+        ele alguma ação.
