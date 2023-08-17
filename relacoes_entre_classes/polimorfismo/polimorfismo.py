@@ -20,6 +20,7 @@ class NotificacaoEmail(Notificacao):
         print('E-mail: enviando - ', self.mensagem)
         return True
 
+
 # Criando a classe 'NotificacaoSMS' que herda da classe abstrata 'Notificacao'
 class NotificacaoSMS(Notificacao):
     # Definindo o método abstrato, com retorno bool, que envia uma mensagem.
