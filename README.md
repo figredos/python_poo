@@ -2,4 +2,7 @@
 alt="alt text" data-canonical-src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
 width="100" height="100"/>
 # **Programação Orientada a Objetos em Python**
-Algoritmos destinados ao estudo, e à maior compreensão de programação orientada a objetos em python.
+Algoritmos destinados ao estudo, e à maior compreensão das ferramentas e capacidades do python para a programação orientada
+a objetos. Dentro desse repositório são encontrados códigos a respeito das seguintes ferramentas do python:
+
+-_**
