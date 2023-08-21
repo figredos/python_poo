@@ -1,0 +1,15 @@
+NAMEDTUPLE
+
+
+- O QUE É
+        Named tuples são uma alternativa a classes, uma vez que possuem um funcionamento similar as classes quanto a
+        atributos, porém, não possuem funcionalidade para métodos. A grande diferença de um namedtuple, para uma tupla
+        simples, é a possibilidade de acessar os elementos de uma tupla por meio de nome, não apenas por índice. É poss-
+        ível também, criar objetos, instâncias de uma namedtuple, como uma classe. Existe a classe NamedTuple também,
+        possui um funcionamento similar a dataclasses na criação e similar à função namedtuple em funcionamento.
+
+- CRIANDO E USANDO namedtuple
+        Namedtuple é uma função do módulo 'collections', portanto, deve ser importada de tal módulo toda vez que for
+        usada. A função recebe como primeiro argumento, o nome da tupla e em seguida uma lista contendo os nomes dos
+        atributos recebidos naquela tupla. Além disso, é possível atribuir valores padrão para os atributos da
+        namedtuple, usando o kwarg defaults, seguido por um iterável contendo os devidos valores padrão.
